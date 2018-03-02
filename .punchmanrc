@@ -1,0 +1,9 @@
+{
+    "puppeteer": {
+        "headless": true,
+        "sloMo": 0,
+    },
+    "plugins": [
+        "./e2e/plugin",
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "punchman",
+  "version": "0.1.0",
+  "main": "./punchman.js",
+  "bin": {
+    "punchman": "./bin/punchman.js"
+  },
+  "scripts": {
+    "start": "todomvc-react",
+    "test": "with-server --grep 'Running.+' jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cosmiconfig": "^4.0.0",
+    "debug": "^3.1.0",
+    "jest": "^22.4.0",
+    "jest-environment-node": "^22.4.1",
+    "puppeteer": "^1.1.0"
+  },
+  "devDependencies": {
+    "cellular-lint": "^1.0.6",
+    "todomvc-react": "^1.0.3",
+    "with-server": "^1.0.0"
+  }
+}

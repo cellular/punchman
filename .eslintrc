@@ -1,0 +1,6 @@
+{
+  "extends": ["cellular"],
+  "globals": {
+    "browser": true
+  }
+}
